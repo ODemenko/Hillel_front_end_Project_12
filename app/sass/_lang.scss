@@ -1,0 +1,29 @@
+.lang {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+
+    & a {
+        color: var(--grey-text, #B3B3BA);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 5px 7px;
+        border-radius: 8px;
+
+        &:hover {
+            background-color: #F5F5FA;
+        }
+
+        &.active {
+            background-color: #F0145A;
+            color: #FFF;
+        }
+    }
+}

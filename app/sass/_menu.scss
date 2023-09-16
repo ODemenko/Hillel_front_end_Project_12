@@ -1,0 +1,27 @@
+.menu {
+    &__list {
+        display: none;
+    }
+
+    &__btn {
+        cursor: pointer;
+        background-image: url(../img/menu.svg);
+        background-repeat: no-repeat;
+        width: 32px;
+        height: 33px;
+        background-color: transparent;
+        border: none;
+    }
+
+    @media (min-width: 768px) {
+        justify-self: end;
+        
+        &__list {
+            display: flex;
+        }
+
+        &__btn {
+            display: none;
+        }
+    }
+}
